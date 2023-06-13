@@ -1,0 +1,21 @@
+{
+  "name": "@mfe-utils/pubsubmfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/PubSubMFE.js",
+  "source": "src/PubSubMFE.js",
+  "targets": {
+    "main": {
+		  "optimize": true
+    }
+	},
+  "author": "Nicholas Sterling <nicholas.v.sterling@gmail.com>",
+  "repository": "https://github.com/MFE-Utils/PubSubMFE",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "build": "parcel build src/PubSubMFE.js"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.2"
+  }
+}
